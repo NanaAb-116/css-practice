@@ -1,0 +1,118 @@
+body {
+  background-color: #e2edfc;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  width: 40rem;
+}
+span {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.main {
+  border: 1px solid rgba(0, 0, 0, 0.123);
+  border-radius: 10px;
+  background-color: white;
+}
+.top {
+  border-top: 10px solid #4286f5;
+}
+
+.top {
+  margin-top: 13px;
+  padding: 0px 20px;
+}
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.137);
+  margin: 0px -20px;
+  padding: 0px;
+}
+
+.inputField {
+  padding-top: 2rem;
+  margin: 5px 0px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+  width: 20rem;
+}
+
+.email,
+.fullName,
+.number,
+.nok,
+.fees,
+.payer,
+.location,
+.school,
+.why,
+.reason {
+  margin-top: 13px;
+  padding: 2rem 20px;
+}
+
+.radio {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  margin: 1rem 1.5rem 1rem 0px;
+}
+.submit {
+  color: white;
+  background-color: #0075ed;
+  border: none;
+  border-radius: 4px;
+  height: 2rem;
+  width: 5rem;
+}
+.clear {
+  color: #0075ed;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  height: 2rem;
+  width: 5rem;
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+.green {
+  border: 5px solid #34a853;
+  border-radius: 10px;
+  height: 0px;
+  width: 10rem;
+  margin-top: 6px;
+  margin-right: -6rem;
+}
+.pageNum {
+  color: black;
+}
+.footer {
+  text-align: center;
+  font-size: 13px;
+}
+.footer a {
+  text-decoration: underline;
+  color: black;
+}
+.last {
+  font-size: 2rem;
+}
+.recaptcha {
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+}
+.recaptcha a {
+  text-decoration: underline;
+  font-size: 13px;
+  color: black;
+}
